@@ -7,9 +7,6 @@ body{
     background-color: #f3f1ff;
     margin: 0 auto;
 }
-main{
-
-}
 .container{
     display: flex;
     max-width: 1080px;
@@ -57,12 +54,12 @@ main{
 
 /* ---------------All Highlights Section Start ------------------*/
 
-#highlight .container{
-    padding: 100px 0;
+#highlight{
+    margin: 100px 0;
 }
 .highlight-info{
     width: 50%;
-    padding: 25px 50px;
+    margin: 25px 50px 25px 0;
 }
 .title{
     font-size: 45px;
@@ -88,3 +85,28 @@ main{
 .fa-arrow-right{
     padding: 5px 10px 5px 10px;
 }
+/* ---------------All Highlights Section End ------------------*/
+
+/* ---------------Videos Part Start ------------------*/
+
+.videos{
+    margin: 100px 0;
+}
+.video-left{
+    width: 44%;
+}
+.left{
+    width: 460px;
+    height: 400px;
+    margin-top: 3px;
+}
+.video-right{
+    width: 56%;
+}
+.right{
+    width: 295px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+/* ---------------Videos Part End ------------------*/
