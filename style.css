@@ -3,8 +3,8 @@
 
 /* Global Style  */
 body{
+    width: 100%;
     font-family: 'Poppins', sans-serif;
-    background-color: #f3f1ff;
     margin: 0 auto;
 }
 .container{
@@ -14,10 +14,6 @@ body{
 }
 
 /* ----------------------Blog Section Start -------------------*/
-
-#blogs{
-    background-color: lightgrey;
-}
 .player-info{
     background-color: white;
     width: 33.33%;
@@ -81,6 +77,10 @@ body{
     display: inline-block;
     padding: 10px 20px 10px 15px;
     margin-top: 15px;
+    transition: all 0.5s ease;
+}
+.highlight-info a:hover{
+    background-color: #ff0080;
 }
 .fa-arrow-right{
     padding: 5px 10px 5px 10px;
@@ -110,3 +110,42 @@ body{
 }
 
 /* ---------------Videos Part End ------------------*/
+footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.footer-info img{
+    width: 100%;
+    height: auto;
+}
+.social-link{
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav .social-link a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    background-color: rgba(211, 211, 211, 0.637);
+    margin: 0 5px;
+    border-radius: 50%;
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+nav .social-link a:hover{
+    color: #374f6f;
+}
+.social-link a i{
+    font-size: 20px;
+    margin: 5px;
+}
+.copy-right{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
